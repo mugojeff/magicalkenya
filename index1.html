@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="asset/css/styles.css">
+
+        <title>Click here to view our amazing travel destinations</title>
+        
+    </head>
+    <body>
+       
+        
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"><img src="asset/img/logo.png"></a>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__img">
+                        <!--<img src="assets/img/lion.png" alt="" data-speed="-20" class="move">-->
+                        <img src="asset/img/rhino.png" alt="" data-speed="2" class="move">
+                        <!--<img src="assets/img/6.png" alt="" data-speed="2" class="move">-->
+                        <img src="asset/img/elephant.png" alt="" data-speed="-2" class="move">
+                        <img src="asset/img/My Post.png" alt="" data-speed="-2" class="move">
+                        <img src="asset/img/lion.png" alt="" data-speed="-8" class="move">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Kenya's <strong>Top</strong><br>Travel Guide</h1>
+                        <p class="home__description" style="color: black;">Let's help you discover the best travel destinations <br> in Kenya </p>
+                        <a href="index.html" class="home__button">Get Started</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== GSAP =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="asset/js/main.js"></script>
+    </body>
+</html>
